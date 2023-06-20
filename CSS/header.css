@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  padding-bottom: 3000px;
 }
 .header{
   width: 100%;
@@ -24,7 +23,9 @@ body{
   cursor: pointer;
   padding-left: 20px;
 }
-.left-header p{
+.left-header a{
+  color: white;
+  text-decoration: none;
   font-size: 25px;
   margin: 0;
 }
@@ -34,8 +35,17 @@ body{
   border: none;
   border-radius: 25px;
 }
-.right-side-header{
+.right-side-header a{
   padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.right-side-header a:hover{
+  text-decoration: underline;
+  color: rgb(67, 209, 252);
+  transition: 0.15s;
+  font-size: 15px;
 }
 .right-side-header p{
   display: inline;

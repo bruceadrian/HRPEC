@@ -23,6 +23,8 @@
   padding: 10px 10px;
 }
 .mission-text{
+  display: flex;
+  justify-content: center;
   font-family: roboto,arial;
   font-size: 30px;
   font-weight: bolder;
@@ -46,7 +48,7 @@
 }
 .vision-text{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   font-family: roboto,arial;
   font-size: 30px;
   font-weight: bolder;
