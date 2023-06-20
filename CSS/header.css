@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding-bottom: 3000px;
+}
+.header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto, arial;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: rgb(6, 95, 212);
+  color: white;
+  padding: 10px 10px;
+}
+.left-header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.left-header p{
+  font-size: 25px;
+  margin: 0;
+}
+.left-header img{
+  height: 50px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 25px;
+}
+.right-side-header{
+  padding-right: 10px;
+}
+.right-side-header p{
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25px;
+  cursor: pointer;
+}
